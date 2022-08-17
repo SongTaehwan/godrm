@@ -1,0 +1,59 @@
+# file options
+
+--exclude Pods
+
+# format options
+
+--allman false
+--binarygrouping 4,8
+--commas inline
+--decimalgrouping 3,6
+--elseposition same-line
+--guardelse same-line
+--exponentcase lowercase
+--exponentgrouping disabled
+--fractiongrouping disabled
+--header ignore
+--hexgrouping 4,8
+--hexliteralcase uppercase
+--ifdef indent
+--indent 4
+--indentcase false
+--importgrouping testable-bottom
+--linebreaks lf
+--maxwidth none
+--octalgrouping 4,8
+--operatorfunc spaced
+--patternlet hoist
+--ranges spaced
+--semicolons inline
+--stripunusedargs always
+--swiftversion 5.6
+--trimwhitespace always
+--emptybraces no-space
+--modifierorder
+--self init-only
+--wraparguments before-first
+--wrapcollections before-first
+--wrapparameters before-first
+--lineaftermarks false
+
+# rules
+
+--enable isEmpty
+--enable wrapEnumCases
+
+--enable linebreakAtEndOfFile
+--enable redundantGet
+--enable redundantLet
+--enable redundantInit
+--enable redundantNilInit
+--enable redundantParens
+
+--enable wraparguments
+--enable wrapConditionalBodies
+--enable wrapEnumCases
+--enable spaceAroundComments
+--enable spaceAroundGenerics
+--enable todos
+--enable blankLinesBetweenScopes

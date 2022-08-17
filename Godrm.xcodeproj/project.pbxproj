@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		262F57F9EB7FC3D2B0FA5BF2 /* Pods_Godrm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D6DD257775C614F6A9DEBA /* Pods_Godrm.framework */; };
+		DF58CD9D032D5F2E3C6374C6 /* Pods_GodrmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30929E4E836F4A8B88081EA /* Pods_GodrmTests.framework */; };
 		E421004F28ACC7E200544EDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E421004E28ACC7E200544EDA /* AppDelegate.swift */; };
 		E421005128ACC7E200544EDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E421005028ACC7E200544EDA /* SceneDelegate.swift */; };
 		E421005328ACC7E200544EDA /* OnboardingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E421005228ACC7E200544EDA /* OnboardingPageViewController.swift */; };
@@ -14,9 +16,28 @@
 		E421005B28ACC7E300544EDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E421005928ACC7E300544EDA /* LaunchScreen.storyboard */; };
 		E421006428ACC8D100544EDA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E421006228ACC8D100544EDA /* README.md */; };
 		E421006528ACC8D100544EDA /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E421006328ACC8D100544EDA /* LICENSE */; };
+		E46A099D28AD0A8E00BEB1CA /* GodrmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46A099C28AD0A8E00BEB1CA /* GodrmTests.swift */; };
+		E46A09A428AD0DF400BEB1CA /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = E46A09A328AD0DF400BEB1CA /* .swiftlint.yml */; };
+		E46A09A628AD0E5100BEB1CA /* .swiftformat in Resources */ = {isa = PBXBuildFile; fileRef = E46A09A528AD0E5100BEB1CA /* .swiftformat */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E46A099E28AD0A8E00BEB1CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E421004328ACC7E200544EDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E421004A28ACC7E200544EDA;
+			remoteInfo = Godrm;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		171561EAFBAAD29ADCFFE6FA /* Pods-GodrmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GodrmTests.debug.xcconfig"; path = "Target Support Files/Pods-GodrmTests/Pods-GodrmTests.debug.xcconfig"; sourceTree = "<group>"; };
+		33D6DD257775C614F6A9DEBA /* Pods_Godrm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Godrm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62DE880A3869650B21CCCAEC /* Pods-Godrm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Godrm.debug.xcconfig"; path = "Target Support Files/Pods-Godrm/Pods-Godrm.debug.xcconfig"; sourceTree = "<group>"; };
+		7EAFAFBAEB24E2FF27344DD6 /* Pods-Godrm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Godrm.release.xcconfig"; path = "Target Support Files/Pods-Godrm/Pods-Godrm.release.xcconfig"; sourceTree = "<group>"; };
+		95367B62EEDBA76AAA730FA7 /* Pods-GodrmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GodrmTests.release.xcconfig"; path = "Target Support Files/Pods-GodrmTests/Pods-GodrmTests.release.xcconfig"; sourceTree = "<group>"; };
+		A30929E4E836F4A8B88081EA /* Pods_GodrmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GodrmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E421004B28ACC7E200544EDA /* Godrm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Godrm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E421004E28ACC7E200544EDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E421005028ACC7E200544EDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,6 +46,10 @@
 		E421005A28ACC7E300544EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E421006228ACC8D100544EDA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E421006328ACC8D100544EDA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E46A099A28AD0A8E00BEB1CA /* GodrmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GodrmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E46A099C28AD0A8E00BEB1CA /* GodrmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodrmTests.swift; sourceTree = "<group>"; };
+		E46A09A328AD0DF400BEB1CA /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		E46A09A528AD0E5100BEB1CA /* .swiftformat */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftformat; sourceTree = "<group>"; };
 		E4DB7F0628ACE5AB007571C5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -33,19 +58,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				262F57F9EB7FC3D2B0FA5BF2 /* Pods_Godrm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E46A099728AD0A8E00BEB1CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF58CD9D032D5F2E3C6374C6 /* Pods_GodrmTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		326DCCCA14284D357AE95B23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62DE880A3869650B21CCCAEC /* Pods-Godrm.debug.xcconfig */,
+				7EAFAFBAEB24E2FF27344DD6 /* Pods-Godrm.release.xcconfig */,
+				171561EAFBAAD29ADCFFE6FA /* Pods-GodrmTests.debug.xcconfig */,
+				95367B62EEDBA76AAA730FA7 /* Pods-GodrmTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8B7AFD0A75879BA65AEE8354 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33D6DD257775C614F6A9DEBA /* Pods_Godrm.framework */,
+				A30929E4E836F4A8B88081EA /* Pods_GodrmTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E421004228ACC7E200544EDA = {
 			isa = PBXGroup;
 			children = (
+				E46A09A528AD0E5100BEB1CA /* .swiftformat */,
+				E46A09A328AD0DF400BEB1CA /* .swiftlint.yml */,
 				E421006328ACC8D100544EDA /* LICENSE */,
 				E421006228ACC8D100544EDA /* README.md */,
 				E421004D28ACC7E200544EDA /* Godrm */,
+				E46A099B28AD0A8E00BEB1CA /* GodrmTests */,
 				E421004C28ACC7E200544EDA /* Products */,
+				326DCCCA14284D357AE95B23 /* Pods */,
+				8B7AFD0A75879BA65AEE8354 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				E421004B28ACC7E200544EDA /* Godrm.app */,
+				E46A099A28AD0A8E00BEB1CA /* GodrmTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,6 +178,14 @@
 			path = OnboardingScene;
 			sourceTree = "<group>";
 		};
+		E46A099B28AD0A8E00BEB1CA /* GodrmTests */ = {
+			isa = PBXGroup;
+			children = (
+				E46A099C28AD0A8E00BEB1CA /* GodrmTests.swift */,
+			);
+			path = GodrmTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,9 +193,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E421005F28ACC7E300544EDA /* Build configuration list for PBXNativeTarget "Godrm" */;
 			buildPhases = (
+				EA65DA09A43ACAF27C0EAD74 /* [CP] Check Pods Manifest.lock */,
+				E46A099428AD097D00BEB1CA /* Swift format */,
+				E46A099528AD09B700BEB1CA /* Swift lint */,
 				E421004728ACC7E200544EDA /* Sources */,
 				E421004828ACC7E200544EDA /* Frameworks */,
 				E421004928ACC7E200544EDA /* Resources */,
+				84B83A73111B31C767A758AE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -137,6 +209,26 @@
 			productName = Godrm;
 			productReference = E421004B28ACC7E200544EDA /* Godrm.app */;
 			productType = "com.apple.product-type.application";
+		};
+		E46A099928AD0A8E00BEB1CA /* GodrmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E46A09A028AD0A8E00BEB1CA /* Build configuration list for PBXNativeTarget "GodrmTests" */;
+			buildPhases = (
+				F6F3C891DA4F131773ECA5E2 /* [CP] Check Pods Manifest.lock */,
+				E46A099628AD0A8E00BEB1CA /* Sources */,
+				E46A099728AD0A8E00BEB1CA /* Frameworks */,
+				E46A099828AD0A8E00BEB1CA /* Resources */,
+				60E67595E6013E128D6A4456 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E46A099F28AD0A8E00BEB1CA /* PBXTargetDependency */,
+			);
+			name = GodrmTests;
+			productName = GodrmTests;
+			productReference = E46A099A28AD0A8E00BEB1CA /* GodrmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -150,6 +242,10 @@
 				TargetAttributes = {
 					E421004A28ACC7E200544EDA = {
 						CreatedOnToolsVersion = 13.3;
+					};
+					E46A099928AD0A8E00BEB1CA = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = E421004A28ACC7E200544EDA;
 					};
 				};
 			};
@@ -167,6 +263,7 @@
 			projectRoot = "";
 			targets = (
 				E421004A28ACC7E200544EDA /* Godrm */,
+				E46A099928AD0A8E00BEB1CA /* GodrmTests */,
 			);
 		};
 /* End PBXProject section */
@@ -176,14 +273,140 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E46A09A428AD0DF400BEB1CA /* .swiftlint.yml in Resources */,
 				E421005B28ACC7E300544EDA /* LaunchScreen.storyboard in Resources */,
+				E46A09A628AD0E5100BEB1CA /* .swiftformat in Resources */,
 				E421005828ACC7E300544EDA /* Assets.xcassets in Resources */,
 				E421006428ACC8D100544EDA /* README.md in Resources */,
 				E421006528ACC8D100544EDA /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E46A099828AD0A8E00BEB1CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60E67595E6013E128D6A4456 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GodrmTests/Pods-GodrmTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GodrmTests/Pods-GodrmTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GodrmTests/Pods-GodrmTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84B83A73111B31C767A758AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Godrm/Pods-Godrm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Godrm/Pods-Godrm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Godrm/Pods-Godrm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E46A099428AD097D00BEB1CA /* Swift format */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swift format";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		E46A099528AD09B700BEB1CA /* Swift lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swift lint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat\" \"$SRCROOT\"\n";
+		};
+		EA65DA09A43ACAF27C0EAD74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Godrm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6F3C891DA4F131773ECA5E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GodrmTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E421004728ACC7E200544EDA /* Sources */ = {
@@ -196,7 +419,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E46A099628AD0A8E00BEB1CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E46A099D28AD0A8E00BEB1CA /* GodrmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E46A099F28AD0A8E00BEB1CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E421004A28ACC7E200544EDA /* Godrm */;
+			targetProxy = E46A099E28AD0A8E00BEB1CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E421005928ACC7E300544EDA /* LaunchScreen.storyboard */ = {
@@ -326,6 +565,7 @@
 		};
 		E421006028ACC7E300544EDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62DE880A3869650B21CCCAEC /* Pods-Godrm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -354,6 +594,7 @@
 		};
 		E421006128ACC7E300544EDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EAFAFBAEB24E2FF27344DD6 /* Pods-Godrm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -380,6 +621,44 @@
 			};
 			name = Release;
 		};
+		E46A09A128AD0A8E00BEB1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 171561EAFBAAD29ADCFFE6FA /* Pods-GodrmTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.Song.GodrmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Godrm.app/Godrm";
+			};
+			name = Debug;
+		};
+		E46A09A228AD0A8E00BEB1CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95367B62EEDBA76AAA730FA7 /* Pods-GodrmTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.Song.GodrmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Godrm.app/Godrm";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -397,6 +676,15 @@
 			buildConfigurations = (
 				E421006028ACC7E300544EDA /* Debug */,
 				E421006128ACC7E300544EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E46A09A028AD0A8E00BEB1CA /* Build configuration list for PBXNativeTarget "GodrmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E46A09A128AD0A8E00BEB1CA /* Debug */,
+				E46A09A228AD0A8E00BEB1CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
