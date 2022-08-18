@@ -2,11 +2,11 @@
 
 ## 🔖 Index
 
-- [프로젝트 소개](#-project-overview)
+- [프로젝트 소개](#%EF%B8%8F-project-overview)
   - [서버 프로젝트 소개](https://github.com/SongTaehwan/godrm-server#%EF%B8%8F-introduction)
 - [앱 아키텍처](#-architecture)
-- [디렉토리 구조](#-directory-&-structure)
-- [주요 화면 및 기능](#scenes-&-features)
+- [디렉토리 구조](#-directory-structure)
+- [주요 화면 및 기능](#-scenes--features)
 
 ### ⭐️ Project Overview
 
