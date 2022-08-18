@@ -50,6 +50,8 @@
 		E46A099C28AD0A8E00BEB1CA /* GodrmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodrmTests.swift; sourceTree = "<group>"; };
 		E46A09A328AD0DF400BEB1CA /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		E46A09A528AD0E5100BEB1CA /* .swiftformat */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftformat; sourceTree = "<group>"; };
+		E46A09A728AE1D5F00BEB1CA /* release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = release.xcconfig; sourceTree = "<group>"; };
+		E46A09A828AE1D7300BEB1CA /* debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = debug.xcconfig; sourceTree = "<group>"; };
 		E4DB7F0628ACE5AB007571C5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,6 +98,8 @@
 		E421004228ACC7E200544EDA = {
 			isa = PBXGroup;
 			children = (
+				E46A09A728AE1D5F00BEB1CA /* release.xcconfig */,
+				E46A09A828AE1D7300BEB1CA /* debug.xcconfig */,
 				E46A09A528AD0E5100BEB1CA /* .swiftformat */,
 				E46A09A328AD0DF400BEB1CA /* .swiftlint.yml */,
 				E421006328ACC8D100544EDA /* LICENSE */,
@@ -565,7 +569,7 @@
 		};
 		E421006028ACC7E300544EDA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62DE880A3869650B21CCCAEC /* Pods-Godrm.debug.xcconfig */;
+			baseConfigurationReference = E46A09A828AE1D7300BEB1CA /* debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -594,7 +598,7 @@
 		};
 		E421006128ACC7E300544EDA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EAFAFBAEB24E2FF27344DD6 /* Pods-Godrm.release.xcconfig */;
+			baseConfigurationReference = E46A09A728AE1D5F00BEB1CA /* release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
