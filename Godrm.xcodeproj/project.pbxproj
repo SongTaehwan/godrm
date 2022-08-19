@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		262F57F9EB7FC3D2B0FA5BF2 /* Pods_Godrm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D6DD257775C614F6A9DEBA /* Pods_Godrm.framework */; };
 		DF58CD9D032D5F2E3C6374C6 /* Pods_GodrmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30929E4E836F4A8B88081EA /* Pods_GodrmTests.framework */; };
+		E411C02F28AF9DD900F17571 /* example.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E411C02E28AF9DD900F17571 /* example.xcconfig */; };
 		E421004F28ACC7E200544EDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E421004E28ACC7E200544EDA /* AppDelegate.swift */; };
 		E421005128ACC7E200544EDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E421005028ACC7E200544EDA /* SceneDelegate.swift */; };
 		E421005328ACC7E200544EDA /* OnboardingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E421005228ACC7E200544EDA /* OnboardingPageViewController.swift */; };
@@ -19,6 +20,7 @@
 		E46A099D28AD0A8E00BEB1CA /* GodrmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46A099C28AD0A8E00BEB1CA /* GodrmTests.swift */; };
 		E46A09A428AD0DF400BEB1CA /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = E46A09A328AD0DF400BEB1CA /* .swiftlint.yml */; };
 		E46A09A628AD0E5100BEB1CA /* .swiftformat in Resources */ = {isa = PBXBuildFile; fileRef = E46A09A528AD0E5100BEB1CA /* .swiftformat */; };
+		E46BCDBF28AF83B800E1BE64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E46BCD8D28AF7FEE00E1BE64 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		7EAFAFBAEB24E2FF27344DD6 /* Pods-Godrm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Godrm.release.xcconfig"; path = "Target Support Files/Pods-Godrm/Pods-Godrm.release.xcconfig"; sourceTree = "<group>"; };
 		95367B62EEDBA76AAA730FA7 /* Pods-GodrmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GodrmTests.release.xcconfig"; path = "Target Support Files/Pods-GodrmTests/Pods-GodrmTests.release.xcconfig"; sourceTree = "<group>"; };
 		A30929E4E836F4A8B88081EA /* Pods_GodrmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GodrmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E411C02D28AF9BFE00F17571 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E411C02E28AF9DD900F17571 /* example.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = example.xcconfig; sourceTree = "<group>"; };
 		E421004B28ACC7E200544EDA /* Godrm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Godrm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E421004E28ACC7E200544EDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E421005028ACC7E200544EDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,8 +54,9 @@
 		E46A099C28AD0A8E00BEB1CA /* GodrmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodrmTests.swift; sourceTree = "<group>"; };
 		E46A09A328AD0DF400BEB1CA /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		E46A09A528AD0E5100BEB1CA /* .swiftformat */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftformat; sourceTree = "<group>"; };
-		E46A09A728AE1D5F00BEB1CA /* release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = release.xcconfig; sourceTree = "<group>"; };
-		E46A09A828AE1D7300BEB1CA /* debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = debug.xcconfig; sourceTree = "<group>"; };
+		E46A09A728AE1D5F00BEB1CA /* production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = production.xcconfig; sourceTree = "<group>"; };
+		E46A09A828AE1D7300BEB1CA /* development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = development.xcconfig; sourceTree = "<group>"; };
+		E46BCD8C28AF7FEE00E1BE64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E4DB7F0628ACE5AB007571C5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,8 +103,9 @@
 		E421004228ACC7E200544EDA = {
 			isa = PBXGroup;
 			children = (
-				E46A09A728AE1D5F00BEB1CA /* release.xcconfig */,
-				E46A09A828AE1D7300BEB1CA /* debug.xcconfig */,
+				E411C02E28AF9DD900F17571 /* example.xcconfig */,
+				E46A09A728AE1D5F00BEB1CA /* production.xcconfig */,
+				E46A09A828AE1D7300BEB1CA /* development.xcconfig */,
 				E46A09A528AD0E5100BEB1CA /* .swiftformat */,
 				E46A09A328AD0DF400BEB1CA /* .swiftlint.yml */,
 				E421006328ACC8D100544EDA /* LICENSE */,
@@ -162,6 +168,7 @@
 				E421005928ACC7E300544EDA /* LaunchScreen.storyboard */,
 				E421005728ACC7E300544EDA /* Assets.xcassets */,
 				E4DB7F0628ACE5AB007571C5 /* Info.plist */,
+				E46BCD8D28AF7FEE00E1BE64 /* InfoPlist.strings */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -260,6 +267,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ko,
 			);
 			mainGroup = E421004228ACC7E200544EDA;
 			productRefGroup = E421004C28ACC7E200544EDA /* Products */;
@@ -280,6 +288,8 @@
 				E46A09A428AD0DF400BEB1CA /* .swiftlint.yml in Resources */,
 				E421005B28ACC7E300544EDA /* LaunchScreen.storyboard in Resources */,
 				E46A09A628AD0E5100BEB1CA /* .swiftformat in Resources */,
+				E411C02F28AF9DD900F17571 /* example.xcconfig in Resources */,
+				E46BCDBF28AF83B800E1BE64 /* InfoPlist.strings in Resources */,
 				E421005828ACC7E300544EDA /* Assets.xcassets in Resources */,
 				E421006428ACC8D100544EDA /* README.md in Resources */,
 				E421006528ACC8D100544EDA /* LICENSE in Resources */,
@@ -450,6 +460,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		E46BCD8D28AF7FEE00E1BE64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E46BCD8C28AF7FEE00E1BE64 /* en */,
+				E411C02D28AF9BFE00F17571 /* ko */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -457,6 +476,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -517,6 +537,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -569,7 +590,7 @@
 		};
 		E421006028ACC7E300544EDA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E46A09A828AE1D7300BEB1CA /* debug.xcconfig */;
+			baseConfigurationReference = E46A09A828AE1D7300BEB1CA /* development.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -598,7 +619,7 @@
 		};
 		E421006128ACC7E300544EDA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E46A09A728AE1D5F00BEB1CA /* release.xcconfig */;
+			baseConfigurationReference = E46A09A728AE1D5F00BEB1CA /* production.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
