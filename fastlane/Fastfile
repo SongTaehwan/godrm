@@ -16,12 +16,17 @@
 default_platform(:ios)
 
 platform :ios do
+  WORKSPACE = "Godrm.xcworkspace"
+  PROJECT = "Godrm.xcodeproj"
+  TESTING_SCHEME = "Debug testing"
+  SCHEME_FOR_BETA = "Development"
+
   desc "Testing app"
   lane :test do
     run_tests(
-      workspace: "Godrm.xcworkspace", 
-      devices: ["iPhone 13 Pro"], 
-      scheme: "Godrm"
+      workspace: WORKSPACE, 
+      devices: ["iPhone 13 Pro (15.2)"], 
+      scheme: TESTING_SCHEME,
     )
   end
 end
