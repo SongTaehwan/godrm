@@ -24,7 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E46A099E28AD0A8E00BEB1CA /* PBXContainerItemProxy */ = {
+		E4AEABB228B1154000341AC9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E421004328ACC7E200544EDA /* Project object */;
 			proxyType = 1;
@@ -34,12 +34,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D469C57DFB45F9FEEBD4659 /* Pods-Godrm.release-testing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Godrm.release-testing.xcconfig"; path = "Target Support Files/Pods-Godrm/Pods-Godrm.release-testing.xcconfig"; sourceTree = "<group>"; };
 		171561EAFBAAD29ADCFFE6FA /* Pods-GodrmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GodrmTests.debug.xcconfig"; path = "Target Support Files/Pods-GodrmTests/Pods-GodrmTests.debug.xcconfig"; sourceTree = "<group>"; };
+		26E35BE82DE03B8F3C227DA3 /* Pods-GodrmTests.debug-testing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GodrmTests.debug-testing.xcconfig"; path = "Target Support Files/Pods-GodrmTests/Pods-GodrmTests.debug-testing.xcconfig"; sourceTree = "<group>"; };
+		3262A1D0350435A28C0A3E8E /* Pods-Godrm.debug testing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Godrm.debug testing.xcconfig"; path = "Target Support Files/Pods-Godrm/Pods-Godrm.debug testing.xcconfig"; sourceTree = "<group>"; };
 		33D6DD257775C614F6A9DEBA /* Pods_Godrm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Godrm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62DE880A3869650B21CCCAEC /* Pods-Godrm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Godrm.debug.xcconfig"; path = "Target Support Files/Pods-Godrm/Pods-Godrm.debug.xcconfig"; sourceTree = "<group>"; };
 		7EAFAFBAEB24E2FF27344DD6 /* Pods-Godrm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Godrm.release.xcconfig"; path = "Target Support Files/Pods-Godrm/Pods-Godrm.release.xcconfig"; sourceTree = "<group>"; };
+		8466EE9EF553E05DFDA7B659 /* Pods-Godrm.release testing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Godrm.release testing.xcconfig"; path = "Target Support Files/Pods-Godrm/Pods-Godrm.release testing.xcconfig"; sourceTree = "<group>"; };
 		95367B62EEDBA76AAA730FA7 /* Pods-GodrmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GodrmTests.release.xcconfig"; path = "Target Support Files/Pods-GodrmTests/Pods-GodrmTests.release.xcconfig"; sourceTree = "<group>"; };
+		9F18D41E40D59E4191A55126 /* Pods-GodrmTests.release testing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GodrmTests.release testing.xcconfig"; path = "Target Support Files/Pods-GodrmTests/Pods-GodrmTests.release testing.xcconfig"; sourceTree = "<group>"; };
 		A30929E4E836F4A8B88081EA /* Pods_GodrmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GodrmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB4808717BF497E7CD7F7E8D /* Pods-GodrmTests.debug testing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GodrmTests.debug testing.xcconfig"; path = "Target Support Files/Pods-GodrmTests/Pods-GodrmTests.debug testing.xcconfig"; sourceTree = "<group>"; };
+		D19A473FC1BCB7014101AF51 /* Pods-GodrmTests.release-testing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GodrmTests.release-testing.xcconfig"; path = "Target Support Files/Pods-GodrmTests/Pods-GodrmTests.release-testing.xcconfig"; sourceTree = "<group>"; };
+		DE5CB08AC829E729811880EB /* Pods-Godrm.debug-testing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Godrm.debug-testing.xcconfig"; path = "Target Support Files/Pods-Godrm/Pods-Godrm.debug-testing.xcconfig"; sourceTree = "<group>"; };
 		E411C02D28AF9BFE00F17571 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E411C02E28AF9DD900F17571 /* example.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = example.xcconfig; sourceTree = "<group>"; };
 		E421004B28ACC7E200544EDA /* Godrm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Godrm.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +95,14 @@
 				7EAFAFBAEB24E2FF27344DD6 /* Pods-Godrm.release.xcconfig */,
 				171561EAFBAAD29ADCFFE6FA /* Pods-GodrmTests.debug.xcconfig */,
 				95367B62EEDBA76AAA730FA7 /* Pods-GodrmTests.release.xcconfig */,
+				DE5CB08AC829E729811880EB /* Pods-Godrm.debug-testing.xcconfig */,
+				0D469C57DFB45F9FEEBD4659 /* Pods-Godrm.release-testing.xcconfig */,
+				26E35BE82DE03B8F3C227DA3 /* Pods-GodrmTests.debug-testing.xcconfig */,
+				D19A473FC1BCB7014101AF51 /* Pods-GodrmTests.release-testing.xcconfig */,
+				3262A1D0350435A28C0A3E8E /* Pods-Godrm.debug testing.xcconfig */,
+				8466EE9EF553E05DFDA7B659 /* Pods-Godrm.release testing.xcconfig */,
+				AB4808717BF497E7CD7F7E8D /* Pods-GodrmTests.debug testing.xcconfig */,
+				9F18D41E40D59E4191A55126 /* Pods-GodrmTests.release testing.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -234,7 +250,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E46A099F28AD0A8E00BEB1CA /* PBXTargetDependency */,
+				E4AEABB328B1154000341AC9 /* PBXTargetDependency */,
 			);
 			name = GodrmTests;
 			productName = GodrmTests;
@@ -444,10 +460,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E46A099F28AD0A8E00BEB1CA /* PBXTargetDependency */ = {
+		E4AEABB328B1154000341AC9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E421004A28ACC7E200544EDA /* Godrm */;
-			targetProxy = E46A099E28AD0A8E00BEB1CA /* PBXContainerItemProxy */;
+			targetProxy = E4AEABB228B1154000341AC9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -686,6 +702,220 @@
 			};
 			name = Release;
 		};
+		E4AEABB428B1164700341AC9 /* Debug testing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug testing";
+		};
+		E4AEABB528B1164700341AC9 /* Debug testing */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3262A1D0350435A28C0A3E8E /* Pods-Godrm.debug testing.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Godrm/Resource/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = co.Song.Godrm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Debug testing";
+		};
+		E4AEABB628B1164700341AC9 /* Debug testing */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB4808717BF497E7CD7F7E8D /* Pods-GodrmTests.debug testing.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.Song.GodrmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Godrm.app/Godrm";
+			};
+			name = "Debug testing";
+		};
+		E4AEABBA28B11AB400341AC9 /* Release testing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release testing";
+		};
+		E4AEABBB28B11AB400341AC9 /* Release testing */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8466EE9EF553E05DFDA7B659 /* Pods-Godrm.release testing.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Godrm/Resource/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = co.Song.Godrm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Release testing";
+		};
+		E4AEABBC28B11AB400341AC9 /* Release testing */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F18D41E40D59E4191A55126 /* Pods-GodrmTests.release testing.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = FCQD35AW5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.Song.GodrmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Godrm.app/Godrm";
+			};
+			name = "Release testing";
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -693,7 +923,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E421005D28ACC7E300544EDA /* Debug */,
+				E4AEABB428B1164700341AC9 /* Debug testing */,
 				E421005E28ACC7E300544EDA /* Release */,
+				E4AEABBA28B11AB400341AC9 /* Release testing */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -702,7 +934,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E421006028ACC7E300544EDA /* Debug */,
+				E4AEABB528B1164700341AC9 /* Debug testing */,
 				E421006128ACC7E300544EDA /* Release */,
+				E4AEABBB28B11AB400341AC9 /* Release testing */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -711,7 +945,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E46A09A128AD0A8E00BEB1CA /* Debug */,
+				E4AEABB628B1164700341AC9 /* Debug testing */,
 				E46A09A228AD0A8E00BEB1CA /* Release */,
+				E4AEABBC28B11AB400341AC9 /* Release testing */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
