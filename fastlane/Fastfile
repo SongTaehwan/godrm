@@ -25,8 +25,8 @@ platform :ios do
   lane :test do
     run_tests(
       workspace: WORKSPACE, 
-      devices: ["iPhone 13 Pro (15.2)"], 
-      scheme: TESTING_SCHEME,
+      devices: ["iPhone 13 Pro"], 
+      scheme: TESTING_SCHEME
     )
   end
 end
