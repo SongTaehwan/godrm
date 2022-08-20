@@ -29,4 +29,16 @@ platform :ios do
       scheme: TESTING_SCHEME
     )
   end
+
+  desc "Push a new beta build to TestFlight"
+  lane :beta do
+    increment_build_number(xcodeproj: PROJECT)
+    build_app(
+      workspace: WORKSPACE, 
+      scheme: SCHEME_FOR_BETA
+    )
+    upload_to_testflight(
+      skip_waiting_for_build_processing: true
+    )
+  end
 end
