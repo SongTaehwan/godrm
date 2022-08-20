@@ -1,0 +1,60 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Testing
+
+# Controls when the workflow will run
+on:
+  push:
+    branches:
+      - "build/*"
+      - "test/*"
+  # Triggers the workflow on push or pull request events but only for the release branch
+  pull_request:
+    branches:
+      - "develop"
+      - "release"
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "test"
+  test:
+    # The type of runner that the job will run on
+    runs-on: macos-latest
+
+    # set env reference
+    environment: test
+
+    defaults:
+      run:
+        working-directory: ./
+
+    env: # $BUNDLE_GEMFILE must be set at the job level, so it is set for all steps
+      BUNDLE_GEMFILE: ${{ github.workspace }}/Gemfile
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Select Xcode Version
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+
+      - name: Setup ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7.2
+          bundler-cache: true
+
+      - name: Install dependencies
+        run: pod install
+
+      - name: Run test
+        run: bundle exec fastlane test
+        env:
+          SLACK_URL: ${{ secrets.SLACK_URL }}
