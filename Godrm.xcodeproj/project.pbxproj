@@ -17,6 +17,7 @@
 		E421005B28ACC7E300544EDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E421005928ACC7E300544EDA /* LaunchScreen.storyboard */; };
 		E421006428ACC8D100544EDA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E421006228ACC8D100544EDA /* README.md */; };
 		E421006528ACC8D100544EDA /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E421006328ACC8D100544EDA /* LICENSE */; };
+		E44ED7DC28B7435300DE7CA8 /* RandomAccessCollection+safeSubscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44ED7DB28B7435300DE7CA8 /* RandomAccessCollection+safeSubscript.swift */; };
 		E46A099D28AD0A8E00BEB1CA /* GodrmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46A099C28AD0A8E00BEB1CA /* GodrmTests.swift */; };
 		E46A09A428AD0DF400BEB1CA /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = E46A09A328AD0DF400BEB1CA /* .swiftlint.yml */; };
 		E46A09A628AD0E5100BEB1CA /* .swiftformat in Resources */ = {isa = PBXBuildFile; fileRef = E46A09A528AD0E5100BEB1CA /* .swiftformat */; };
@@ -54,6 +55,7 @@
 		E421005A28ACC7E300544EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E421006228ACC8D100544EDA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E421006328ACC8D100544EDA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E44ED7DB28B7435300DE7CA8 /* RandomAccessCollection+safeSubscript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RandomAccessCollection+safeSubscript.swift"; sourceTree = "<group>"; };
 		E46A099A28AD0A8E00BEB1CA /* GodrmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GodrmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E46A099C28AD0A8E00BEB1CA /* GodrmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodrmTests.swift; sourceTree = "<group>"; };
 		E46A09A328AD0DF400BEB1CA /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
@@ -139,9 +141,10 @@
 			isa = PBXGroup;
 			children = (
 				E421006728ACDBBE00544EDA /* Application */,
+				E44ED7D728B742DC00DE7CA8 /* Common */,
 				E421006628ACDBBC00544EDA /* Domain */,
-				E421006A28ACDBE000544EDA /* Presentation */,
 				E421006828ACDBC400544EDA /* Data */,
+				E421006A28ACDBE000544EDA /* Presentation */,
 				E421006928ACDBC900544EDA /* Resource */,
 			);
 			path = Godrm;
@@ -195,6 +198,30 @@
 				E421005228ACC7E200544EDA /* OnboardingPageViewController.swift */,
 			);
 			path = OnboardingScene;
+			sourceTree = "<group>";
+		};
+		E44ED7D728B742DC00DE7CA8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E44ED7DD28B743C800DE7CA8 /* Constants */,
+				E44ED7DA28B7431B00DE7CA8 /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E44ED7DA28B7431B00DE7CA8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E44ED7DB28B7435300DE7CA8 /* RandomAccessCollection+safeSubscript.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E44ED7DD28B743C800DE7CA8 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		E46A099B28AD0A8E00BEB1CA /* GodrmTests */ = {
@@ -435,6 +462,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E44ED7DC28B7435300DE7CA8 /* RandomAccessCollection+safeSubscript.swift in Sources */,
 				E421005328ACC7E200544EDA /* OnboardingPageViewController.swift in Sources */,
 				E421004F28ACC7E200544EDA /* AppDelegate.swift in Sources */,
 				E421005128ACC7E200544EDA /* SceneDelegate.swift in Sources */,
