@@ -22,6 +22,7 @@
 		E46A09A428AD0DF400BEB1CA /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = E46A09A328AD0DF400BEB1CA /* .swiftlint.yml */; };
 		E46A09A628AD0E5100BEB1CA /* .swiftformat in Resources */ = {isa = PBXBuildFile; fileRef = E46A09A528AD0E5100BEB1CA /* .swiftformat */; };
 		E46BCDBF28AF83B800E1BE64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E46BCD8D28AF7FEE00E1BE64 /* InfoPlist.strings */; };
+		E493552B28B7544B001F63B8 /* UIImage+icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E493552A28B7544B001F63B8 /* UIImage+icons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		E46A09A728AE1D5F00BEB1CA /* production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = production.xcconfig; sourceTree = "<group>"; };
 		E46A09A828AE1D7300BEB1CA /* development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = development.xcconfig; sourceTree = "<group>"; };
 		E46BCD8C28AF7FEE00E1BE64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E493552A28B7544B001F63B8 /* UIImage+icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+icons.swift"; sourceTree = "<group>"; };
 		E4DB7F0628ACE5AB007571C5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -213,6 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				E44ED7DB28B7435300DE7CA8 /* RandomAccessCollection+safeSubscript.swift */,
+				E493552A28B7544B001F63B8 /* UIImage+icons.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -463,6 +466,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E44ED7DC28B7435300DE7CA8 /* RandomAccessCollection+safeSubscript.swift in Sources */,
+				E493552B28B7544B001F63B8 /* UIImage+icons.swift in Sources */,
 				E421005328ACC7E200544EDA /* OnboardingPageViewController.swift in Sources */,
 				E421004F28ACC7E200544EDA /* AppDelegate.swift in Sources */,
 				E421005128ACC7E200544EDA /* SceneDelegate.swift in Sources */,
