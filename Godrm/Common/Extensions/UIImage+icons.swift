@@ -1,5 +1,5 @@
 //
-//  UIImage+Extensions.swift
+//  UIImage+icons.swift
 //  Godrm
 //
 //  Created by 송태환 on 2022/08/25.
@@ -8,7 +8,13 @@
 import UIKit.UIImage
 
 extension UIImage {
-    enum Icons: String {
+    /// (C) Get custom icon object from Assets
+    static func get(icon: IconAssets) -> UIImage? {
+        icon.object
+    }
+
+	/// (C) User defined custom icon assets
+    enum IconAssets: String {
         case arrowDown = "arrow.down"
         case arrowRight = "arrow.right"
         case arrowUp = "arrow.up"
@@ -37,9 +43,9 @@ extension UIImage {
         case star
         case sugar
         case vegetable
-    }
 
-    convenience init?(icon: Icons) {
-        self.init(named: icon.rawValue)
+        var object: UIImage? {
+            UIImage(named: rawValue)
+        }
     }
 }
