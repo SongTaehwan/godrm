@@ -8,11 +8,17 @@
 import UIKit.UIImage
 
 extension UIImage {
-    enum Images: String {
-        case launch
+    /// (C) Get custom image object from Assets
+    static func get(image: ImageAssets) -> UIImage? {
+        image.object
     }
 
-    convenience init?(image: Images) {
-        self.init(named: image.rawValue)
+	/// (C) User defined custom image assets
+    enum ImageAssets: String {
+        case launch
+
+        var object: UIImage? {
+            UIImage(named: rawValue)
+        }
     }
 }
