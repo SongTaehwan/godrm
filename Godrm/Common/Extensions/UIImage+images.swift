@@ -9,11 +9,11 @@ import UIKit.UIImage
 
 extension UIImage {
     /// (C) Get custom image object from Assets
-    static func get(image: ImageAssets) -> UIImage? {
+    static func get(_ image: ImageAssets) -> UIImage? {
         image.object
     }
 
-	/// (C) User defined custom image assets
+    /// (C) User defined custom image assets
     enum ImageAssets: String {
         case launch
 

@@ -8,12 +8,14 @@
 import UIKit.UIImage
 
 extension UIImage {
+    static let cart = UIImage(named: "cart")
+
     /// (C) Get custom icon object from Assets
-    static func get(icon: IconAssets) -> UIImage? {
+    static func get(_ icon: IconAssets) -> UIImage? {
         icon.object
     }
 
-	/// (C) User defined custom icon assets
+    /// (C) User defined custom icon assets
     enum IconAssets: String {
         case arrowDown = "arrow.down"
         case arrowRight = "arrow.right"
