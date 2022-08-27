@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		262F57F9EB7FC3D2B0FA5BF2 /* Pods_Godrm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D6DD257775C614F6A9DEBA /* Pods_Godrm.framework */; };
 		DF58CD9D032D5F2E3C6374C6 /* Pods_GodrmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30929E4E836F4A8B88081EA /* Pods_GodrmTests.framework */; };
-		E411C02F28AF9DD900F17571 /* example.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E411C02E28AF9DD900F17571 /* example.xcconfig */; };
 		E421004F28ACC7E200544EDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E421004E28ACC7E200544EDA /* AppDelegate.swift */; };
 		E421005128ACC7E200544EDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E421005028ACC7E200544EDA /* SceneDelegate.swift */; };
 		E421005328ACC7E200544EDA /* OnboardingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E421005228ACC7E200544EDA /* OnboardingPageViewController.swift */; };
@@ -293,7 +292,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					E421004A28ACC7E200544EDA = {
 						CreatedOnToolsVersion = 13.3;
@@ -332,7 +331,6 @@
 				E46A09A428AD0DF400BEB1CA /* .swiftlint.yml in Resources */,
 				E421005B28ACC7E300544EDA /* LaunchScreen.storyboard in Resources */,
 				E46A09A628AD0E5100BEB1CA /* .swiftformat in Resources */,
-				E411C02F28AF9DD900F17571 /* example.xcconfig in Resources */,
 				E46BCDBF28AF83B800E1BE64 /* InfoPlist.strings in Resources */,
 				E421005828ACC7E300544EDA /* Assets.xcassets in Resources */,
 				E421006428ACC8D100544EDA /* README.md in Resources */,
