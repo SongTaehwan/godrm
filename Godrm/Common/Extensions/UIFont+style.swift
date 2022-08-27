@@ -20,10 +20,10 @@ extension UIFont {
         case callout(ofSize: CGFloat = 16, weight: Weight = .regular)
         case headline(ofSize: CGFloat = 17, weight: Weight = .bold)
         case body(ofSize: CGFloat = 17, weight: Weight = .regular)
-		case title3(ofSize: CGFloat = 20, weight: Weight = .regular)
-		case title2(ofSize: CGFloat = 22, weight: Weight = .regular)
+        case title3(ofSize: CGFloat = 20, weight: Weight = .regular)
+        case title2(ofSize: CGFloat = 22, weight: Weight = .regular)
         case title1(ofSize: CGFloat = 28, weight: Weight = .regular)
-		case largeTitle(ofSize: CGFloat = 34, weight: Weight = .regular)
+        case largeTitle(ofSize: CGFloat = 34, weight: Weight = .regular)
 
         var object: UIFont {
             switch self {

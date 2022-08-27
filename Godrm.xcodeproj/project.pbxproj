@@ -24,6 +24,7 @@
 		E493552B28B7544B001F63B8 /* UIImage+icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E493552A28B7544B001F63B8 /* UIImage+icons.swift */; };
 		E493552D28B75CEA001F63B8 /* UIImage+images.swift in Sources */ = {isa = PBXBuildFile; fileRef = E493552C28B75CEA001F63B8 /* UIImage+images.swift */; };
 		E493552F28B76948001F63B8 /* UIFont+style.swift in Sources */ = {isa = PBXBuildFile; fileRef = E493552E28B76948001F63B8 /* UIFont+style.swift */; };
+		E4DC702028B9E14B004B3606 /* Debuggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DC701F28B9E14B004B3606 /* Debuggable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		E493552C28B75CEA001F63B8 /* UIImage+images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+images.swift"; sourceTree = "<group>"; };
 		E493552E28B76948001F63B8 /* UIFont+style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+style.swift"; sourceTree = "<group>"; };
 		E4DB7F0628ACE5AB007571C5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4DC701F28B9E14B004B3606 /* Debuggable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debuggable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +210,7 @@
 		E44ED7D728B742DC00DE7CA8 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				E4DC701E28B9E13E004B3606 /* Utilities */,
 				E44ED7DD28B743C800DE7CA8 /* Constants */,
 				E44ED7DA28B7431B00DE7CA8 /* Extensions */,
 			);
@@ -238,6 +241,14 @@
 				E46A099C28AD0A8E00BEB1CA /* GodrmTests.swift */,
 			);
 			path = GodrmTests;
+			sourceTree = "<group>";
+		};
+		E4DC701E28B9E13E004B3606 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E4DC701F28B9E14B004B3606 /* Debuggable.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -474,6 +485,7 @@
 				E493552B28B7544B001F63B8 /* UIImage+icons.swift in Sources */,
 				E421005328ACC7E200544EDA /* OnboardingPageViewController.swift in Sources */,
 				E421004F28ACC7E200544EDA /* AppDelegate.swift in Sources */,
+				E4DC702028B9E14B004B3606 /* Debuggable.swift in Sources */,
 				E421005128ACC7E200544EDA /* SceneDelegate.swift in Sources */,
 				E493552D28B75CEA001F63B8 /* UIImage+images.swift in Sources */,
 			);
