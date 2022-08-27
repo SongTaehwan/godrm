@@ -37,10 +37,12 @@
 --wrapcollections before-first
 --wrapparameters before-first
 --lineaftermarks false
+--acronyms
 
 # rules
 
 --enable isEmpty
+--enable blankLinesBetweenImports
 --enable wrapEnumCases
 
 --enable linebreakAtEndOfFile
