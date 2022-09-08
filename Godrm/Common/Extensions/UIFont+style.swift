@@ -7,10 +7,12 @@
 
 import UIKit.UIFont
 extension UIFont {
+    /// (C) Get custom font object from Assets
     static func get(_ font: FontAssets) -> UIFont {
         font.object
     }
 
+    /// (C) User defined custom font assets
     enum FontAssets {
         case caption3(ofSize: CGFloat = 10, weight: Weight = .regular)
         case caption2(ofSize: CGFloat = 11, weight: Weight = .regular)
