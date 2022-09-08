@@ -8,8 +8,6 @@
 import UIKit.UIImage
 
 extension UIImage {
-    static let cart = UIImage(named: "cart")
-
     /// (C) Get custom icon object from Assets
     static func get(_ icon: IconAssets) -> UIImage? {
         icon.object
