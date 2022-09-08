@@ -8,20 +8,11 @@
 import Foundation
 
 @propertyWrapper
-struct Debuggable<T>: CustomStringConvertible {
+struct Debuggable<T> {
     private let name: String
     private let caller: String
     private let location: String
     private var value: T
-    var description: String {
-        """
-        \(name)
-        │ Caller: \(caller)
-        │ Location: \(location)
-        │ Type of value: \(type(of: value))
-        │ Current value: \(value)
-        """
-    }
 
     init(
         wrappedValue: T,
@@ -47,5 +38,17 @@ struct Debuggable<T>: CustomStringConvertible {
             """)
             value = newValue
         }
+    }
+}
+
+extension Debuggable: CustomStringConvertible {
+    var description: String {
+        """
+        \(name)
+        │ Caller: \(caller)
+        │ Location: \(location)
+        │ Type of value: \(type(of: value))
+        │ Current value: \(value)
+        """
     }
 }
