@@ -5,7 +5,7 @@
 //  Created by 송태환 on 2022/09/08.
 //
 
-import Foundation
+import RxSwift
 
 protocol AnyOptional {
     var isNil: Bool { get }
@@ -25,11 +25,13 @@ struct UserDefault<Value> {
     private var container = UserDefaults.standard
     private let key: UserDefault.Key
     private let defaultValue: Value
+    private let subject: BehaviorSubject<Value>
 
     init(container: UserDefaults = .standard, key: UserDefault.Key, defaultValue: Value) {
         self.container = container
         self.key = key
         self.defaultValue = defaultValue
+        self.subject = BehaviorSubject(value: defaultValue)
     }
 
     init(wrappedValue value: Value, key: UserDefault.Key) {
@@ -45,8 +47,13 @@ struct UserDefault<Value> {
                 container.removeObject(forKey: key.value)
             } else {
                 container.set(newValue, forKey: key.value)
+                subject.onNext(newValue)
             }
         }
+    }
+
+    var projectedValue: BehaviorSubject<Value> {
+        subject
     }
 }
 
