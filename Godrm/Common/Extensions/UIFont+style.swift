@@ -6,10 +6,16 @@
 //
 
 import UIKit.UIFont
+
 extension UIFont {
     /// (C) Get custom font object from Assets
     static func get(_ font: FontAssets) -> UIFont {
         font.object
+    }
+
+    /// (C) Get custom font object from Assets
+    static func get(font: FontAssets) -> UIFont {
+        Self.get(font)
     }
 
     /// (C) User defined custom font assets

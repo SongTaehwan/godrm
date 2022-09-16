@@ -13,6 +13,11 @@ extension UIImage {
         image.object
     }
 
+    /// (C) Get custom image object from Assets
+    static func get(image: ImageAssets) -> UIImage? {
+        Self.get(image)
+    }
+
     /// (C) User defined custom image assets
     enum ImageAssets: String {
         case launch
