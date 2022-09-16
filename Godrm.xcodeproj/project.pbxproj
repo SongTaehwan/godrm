@@ -11,7 +11,7 @@
 		DF58CD9D032D5F2E3C6374C6 /* Pods_GodrmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30929E4E836F4A8B88081EA /* Pods_GodrmTests.framework */; };
 		E421004F28ACC7E200544EDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E421004E28ACC7E200544EDA /* AppDelegate.swift */; };
 		E421005128ACC7E200544EDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E421005028ACC7E200544EDA /* SceneDelegate.swift */; };
-		E421005328ACC7E200544EDA /* OnboardingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E421005228ACC7E200544EDA /* OnboardingPageViewController.swift */; };
+		E421005328ACC7E200544EDA /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E421005228ACC7E200544EDA /* OnboardingViewController.swift */; };
 		E421005828ACC7E300544EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E421005728ACC7E300544EDA /* Assets.xcassets */; };
 		E421005B28ACC7E300544EDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E421005928ACC7E300544EDA /* LaunchScreen.storyboard */; };
 		E421006428ACC8D100544EDA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E421006228ACC8D100544EDA /* README.md */; };
@@ -27,6 +27,7 @@
 		E493552B28B7544B001F63B8 /* UIImage+icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E493552A28B7544B001F63B8 /* UIImage+icons.swift */; };
 		E493552D28B75CEA001F63B8 /* UIImage+images.swift in Sources */ = {isa = PBXBuildFile; fileRef = E493552C28B75CEA001F63B8 /* UIImage+images.swift */; };
 		E493552F28B76948001F63B8 /* UIFont+style.swift in Sources */ = {isa = PBXBuildFile; fileRef = E493552E28B76948001F63B8 /* UIFont+style.swift */; };
+		E4A388E628D45B520033D8A2 /* UIColor+style.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A388E528D45B520033D8A2 /* UIColor+style.swift */; };
 		E4DC702028B9E14B004B3606 /* Debuggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DC701F28B9E14B004B3606 /* Debuggable.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,7 +57,7 @@
 		E421004B28ACC7E200544EDA /* Godrm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Godrm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E421004E28ACC7E200544EDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E421005028ACC7E200544EDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E421005228ACC7E200544EDA /* OnboardingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageViewController.swift; sourceTree = "<group>"; };
+		E421005228ACC7E200544EDA /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		E421005728ACC7E300544EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E421005A28ACC7E300544EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E421006228ACC8D100544EDA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -76,6 +77,7 @@
 		E493552A28B7544B001F63B8 /* UIImage+icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+icons.swift"; sourceTree = "<group>"; };
 		E493552C28B75CEA001F63B8 /* UIImage+images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+images.swift"; sourceTree = "<group>"; };
 		E493552E28B76948001F63B8 /* UIFont+style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+style.swift"; sourceTree = "<group>"; };
+		E4A388E528D45B520033D8A2 /* UIColor+style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+style.swift"; sourceTree = "<group>"; };
 		E4DB7F0628ACE5AB007571C5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4DC701F28B9E14B004B3606 /* Debuggable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debuggable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -211,7 +213,8 @@
 		E421006B28ACDBFB00544EDA /* OnboardingScene */ = {
 			isa = PBXGroup;
 			children = (
-				E421005228ACC7E200544EDA /* OnboardingPageViewController.swift */,
+				E4A388E228D456680033D8A2 /* View */,
+				E4A388E128D456560033D8A2 /* ViewModel */,
 			);
 			path = OnboardingScene;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				E493552A28B7544B001F63B8 /* UIImage+icons.swift */,
 				E493552C28B75CEA001F63B8 /* UIImage+images.swift */,
 				E493552E28B76948001F63B8 /* UIFont+style.swift */,
+				E4A388E528D45B520033D8A2 /* UIColor+style.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -250,6 +254,21 @@
 				E46A099C28AD0A8E00BEB1CA /* GodrmTests.swift */,
 			);
 			path = GodrmTests;
+			sourceTree = "<group>";
+		};
+		E4A388E128D456560033D8A2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E4A388E228D456680033D8A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E421005228ACC7E200544EDA /* OnboardingViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		E4DC701E28B9E13E004B3606 /* Utilities */ = {
@@ -495,12 +514,13 @@
 				E44ED7DC28B7435300DE7CA8 /* RandomAccessCollection+safeSubscript.swift in Sources */,
 				E493552F28B76948001F63B8 /* UIFont+style.swift in Sources */,
 				E493552B28B7544B001F63B8 /* UIImage+icons.swift in Sources */,
-				E421005328ACC7E200544EDA /* OnboardingPageViewController.swift in Sources */,
+				E421005328ACC7E200544EDA /* OnboardingViewController.swift in Sources */,
 				E421004F28ACC7E200544EDA /* AppDelegate.swift in Sources */,
 				E444AC2928C9A18000E4F8E2 /* UserDefault.swift in Sources */,
 				E4DC702028B9E14B004B3606 /* Debuggable.swift in Sources */,
 				E421005128ACC7E200544EDA /* SceneDelegate.swift in Sources */,
 				E493552D28B75CEA001F63B8 /* UIImage+images.swift in Sources */,
+				E4A388E628D45B520033D8A2 /* UIColor+style.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
