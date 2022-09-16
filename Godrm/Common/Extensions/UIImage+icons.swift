@@ -13,6 +13,11 @@ extension UIImage {
         icon.object
     }
 
+    /// (C) Get custom icon object from Assets
+    static func get(icon: IconAssets) -> UIImage? {
+        Self.get(icon)
+    }
+
     /// (C) User defined custom icon assets
     enum IconAssets: String {
         case arrowDown = "arrow.down"
