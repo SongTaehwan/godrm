@@ -22,6 +22,8 @@
 		E46A09A428AD0DF400BEB1CA /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = E46A09A328AD0DF400BEB1CA /* .swiftlint.yml */; };
 		E46A09A628AD0E5100BEB1CA /* .swiftformat in Resources */ = {isa = PBXBuildFile; fileRef = E46A09A528AD0E5100BEB1CA /* .swiftformat */; };
 		E46BCDBF28AF83B800E1BE64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E46BCD8D28AF7FEE00E1BE64 /* InfoPlist.strings */; };
+		E48E552328D449E200178BE0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E48E552228D449E200178BE0 /* .gitignore */; };
+		E48E552628D452E300178BE0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E48E552828D452E300178BE0 /* Localizable.strings */; };
 		E493552B28B7544B001F63B8 /* UIImage+icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E493552A28B7544B001F63B8 /* UIImage+icons.swift */; };
 		E493552D28B75CEA001F63B8 /* UIImage+images.swift in Sources */ = {isa = PBXBuildFile; fileRef = E493552C28B75CEA001F63B8 /* UIImage+images.swift */; };
 		E493552F28B76948001F63B8 /* UIFont+style.swift in Sources */ = {isa = PBXBuildFile; fileRef = E493552E28B76948001F63B8 /* UIFont+style.swift */; };
@@ -68,6 +70,9 @@
 		E46A09A728AE1D5F00BEB1CA /* production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = production.xcconfig; sourceTree = "<group>"; };
 		E46A09A828AE1D7300BEB1CA /* development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = development.xcconfig; sourceTree = "<group>"; };
 		E46BCD8C28AF7FEE00E1BE64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E48E552228D449E200178BE0 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		E48E552728D452E300178BE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E48E552928D452E400178BE0 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E493552A28B7544B001F63B8 /* UIImage+icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+icons.swift"; sourceTree = "<group>"; };
 		E493552C28B75CEA001F63B8 /* UIImage+images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+images.swift"; sourceTree = "<group>"; };
 		E493552E28B76948001F63B8 /* UIFont+style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+style.swift"; sourceTree = "<group>"; };
@@ -127,6 +132,7 @@
 				E46A09A828AE1D7300BEB1CA /* development.xcconfig */,
 				E46A09A528AD0E5100BEB1CA /* .swiftformat */,
 				E46A09A328AD0DF400BEB1CA /* .swiftlint.yml */,
+				E48E552228D449E200178BE0 /* .gitignore */,
 				E421006328ACC8D100544EDA /* LICENSE */,
 				E421006228ACC8D100544EDA /* README.md */,
 				E421004D28ACC7E200544EDA /* Godrm */,
@@ -188,6 +194,7 @@
 				E421005928ACC7E300544EDA /* LaunchScreen.storyboard */,
 				E421005728ACC7E300544EDA /* Assets.xcassets */,
 				E4DB7F0628ACE5AB007571C5 /* Info.plist */,
+				E48E552828D452E300178BE0 /* Localizable.strings */,
 				E46BCD8D28AF7FEE00E1BE64 /* InfoPlist.strings */,
 			);
 			path = Resource;
@@ -342,9 +349,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E48E552328D449E200178BE0 /* .gitignore in Resources */,
 				E46A09A428AD0DF400BEB1CA /* .swiftlint.yml in Resources */,
 				E421005B28ACC7E300544EDA /* LaunchScreen.storyboard in Resources */,
 				E46A09A628AD0E5100BEB1CA /* .swiftformat in Resources */,
+				E48E552628D452E300178BE0 /* Localizable.strings in Resources */,
 				E46BCDBF28AF83B800E1BE64 /* InfoPlist.strings in Resources */,
 				E421005828ACC7E300544EDA /* Assets.xcassets in Resources */,
 				E421006428ACC8D100544EDA /* README.md in Resources */,
@@ -529,6 +538,15 @@
 				E411C02D28AF9BFE00F17571 /* ko */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E48E552828D452E300178BE0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E48E552728D452E300178BE0 /* en */,
+				E48E552928D452E400178BE0 /* ko */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
