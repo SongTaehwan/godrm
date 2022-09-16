@@ -28,6 +28,7 @@
 		E493552D28B75CEA001F63B8 /* UIImage+images.swift in Sources */ = {isa = PBXBuildFile; fileRef = E493552C28B75CEA001F63B8 /* UIImage+images.swift */; };
 		E493552F28B76948001F63B8 /* UIFont+style.swift in Sources */ = {isa = PBXBuildFile; fileRef = E493552E28B76948001F63B8 /* UIFont+style.swift */; };
 		E4A388E628D45B520033D8A2 /* UIColor+style.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A388E528D45B520033D8A2 /* UIColor+style.swift */; };
+		E4A388EC28D460D40033D8A2 /* OnboardingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A388EB28D460D40033D8A2 /* OnboardingItem.swift */; };
 		E4DC702028B9E14B004B3606 /* Debuggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DC701F28B9E14B004B3606 /* Debuggable.swift */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +79,7 @@
 		E493552C28B75CEA001F63B8 /* UIImage+images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+images.swift"; sourceTree = "<group>"; };
 		E493552E28B76948001F63B8 /* UIFont+style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+style.swift"; sourceTree = "<group>"; };
 		E4A388E528D45B520033D8A2 /* UIColor+style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+style.swift"; sourceTree = "<group>"; };
+		E4A388EB28D460D40033D8A2 /* OnboardingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingItem.swift; sourceTree = "<group>"; };
 		E4DB7F0628ACE5AB007571C5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4DC701F28B9E14B004B3606 /* Debuggable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debuggable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -170,6 +172,7 @@
 		E421006628ACDBBC00544EDA /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				E4A388EA28D460A30033D8A2 /* Entities */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -269,6 +272,14 @@
 				E421005228ACC7E200544EDA /* OnboardingViewController.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		E4A388EA28D460A30033D8A2 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				E4A388EB28D460D40033D8A2 /* OnboardingItem.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 		E4DC701E28B9E13E004B3606 /* Utilities */ = {
@@ -515,6 +526,7 @@
 				E493552F28B76948001F63B8 /* UIFont+style.swift in Sources */,
 				E493552B28B7544B001F63B8 /* UIImage+icons.swift in Sources */,
 				E421005328ACC7E200544EDA /* OnboardingViewController.swift in Sources */,
+				E4A388EC28D460D40033D8A2 /* OnboardingItem.swift in Sources */,
 				E421004F28ACC7E200544EDA /* AppDelegate.swift in Sources */,
 				E444AC2928C9A18000E4F8E2 /* UserDefault.swift in Sources */,
 				E4DC702028B9E14B004B3606 /* Debuggable.swift in Sources */,
