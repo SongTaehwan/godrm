@@ -16,12 +16,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         }
 
         window = UIWindow(windowScene: scene)
-        window?.makeKeyAndVisible()
 
         let vc = OnboardingViewController()
         vc.inject(viewModel: DefaultOnboardingViewModel())
         let navigationController = UINavigationController(rootViewController: vc)
-        navigationController.view.backgroundColor = .systemBackground
+
         window?.rootViewController = navigationController
+        window?.makeKeyAndVisible()
     }
 }

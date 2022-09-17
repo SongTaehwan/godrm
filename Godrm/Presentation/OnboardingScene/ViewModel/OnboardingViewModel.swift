@@ -30,13 +30,13 @@ struct DefaultOnboardingViewModel: OnboardingViewModel {
     init() {
         action.fetchOnboardingItems
             .map {
-				// TODO: API Call from repository
+                // TODO: API Call from repository
                 []
             }
-			.retry(3)
+            .retry(3)
             .bind(to: state.onboardingItems)
             .disposed(by: disposeBag)
 
-		// TODO: 데이터 응답 받은 후 데이터를 코디네이터로 보냄
+        // TODO: 데이터 응답 받은 후 데이터를 코디네이터로 보냄
     }
 }
